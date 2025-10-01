@@ -40,7 +40,7 @@ Meta: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 9000
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 然后使用 create_ap创建以下命令
 
-create_ap wlx90de80f76d82 Meta TEST_AP 123456789 --dhcp-dns 8.8.8.8
+# create_ap wlx90de80f76d82 Meta TEST_AP 123456789 --dhcp-dns 8.8.8.8
 
 wlx90de80f76d82: 是你购买的网卡AP硬件ID，或者是你的机器自带的 WIFI id，这个是变动的，如果不知道，就拔了WIFI USB网卡，然后ifconfig，然后插上，ifconfig,来回看看变动的那个就是了
 
